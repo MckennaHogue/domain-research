@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin:0;
+}
+
+#sky{
+position: absolute;
+background-image: url("assets/underwater.jpg");
+top: 0%;
+height: 100%;
+width: 100%;
+}
+
+#water{
+position: absolute;
+background-image: url("assets/underwater.jpg");
+top: 30%;
+height: 100%;
+width: 100%;
+}
+
+#Boat{
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  width: 600px;
+}
+
+#diver{
+  position: absolute;
+  left: 100px;
+  top:600px;
+  width: 250px;
+}
+
+#gun{
+  position: absolute;
+  left: 315px;
+  top:600px;
+  width: 200px;
+}
+
+
+.fish{
+  width: 95px;
+  position: absolute;
+}
+
+#fish1 {
+left: 500px;
+top: 400px;
+}
+
+#fish2{
+  left: 800px;
+  top: 500px;
+}
+
+#fish3{
+  left: 500px;
+  top: 300px;
+}
+
+#fish4{
+  left: 550px;
+  top: 600px;
+}
+
+#fish5{
+  left: 1050px;
+  top: 655px;
+}
+
+#fish6{
+  left: 200px;
+  top: 800px;
+}
+
+#fish7{
+  left: 200px;
+  top: 400px;
+}
+
+#fish8{
+  left: 1050px;
+  top: 300px;
+}
+
+#fish9{
+  left: 1090px;
+  top: 800px;
+}
+
+.blackfish{
+  width: 90px;
+  position: absolute;
+}
+
+#blackfish1{
+  left: 1090px;
+  top: 800px;
+}
+
+#blackfish2{
+  left: 500px;
+  top: 400px;
+}
+
+.bluefish{
+  width: 120px;
+  position: absolute;
+}
+
+#bluefish1{
+  left: 800px;
+  top: 700px;
+}
+
+#bluefish2{
+  left: 750px;
+  top: 760px;
+}
+
+

@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin:0;
+}
+
+body{
+  background-color: #eee;
+
+}
+
+#canvas{
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 600px;
+  height: 600px;
+  background-color: white;
+}
+
+#rightbox{
+  margin-top: 50px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#colorbox{
+  width: 300px;
+  height: 200px;
+}
+
+#colorbox div{
+  display: inline-block;
+  width: 30.9%;
+  height: 30px;
+}
+
+
+#red{
+  background: red;
+}
+#pink{
+  background:#ff5c91;
+}
+#orange{
+  background:orange;
+}
+#yellow{
+  background:yellow;
+}
+#green{
+  background:green;
+}
+#darkgreen{
+  background:darkgreen;
+}
+#cyan{
+  background:cyan;
+}
+#blue{
+  background:blue;
+}
+#lightblue{
+  background:lightblue;
+}
+#purple{
+  background:purple;
+}
+#lavender{
+  background:lavender;
+}
+#brown{
+  background:brown;
+}
+#grey{
+  background:#bbb;
+}
+#white{
+  background:white;
+}
+#black{
+  background:black;
+}
+
+#paintbrush{
+  width: 30px;
+
+}
