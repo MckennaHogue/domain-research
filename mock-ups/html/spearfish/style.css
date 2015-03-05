@@ -1,7 +1,56 @@
-*{
+body {
   padding: 0;
-  margin:0;
+  margin: 0;
+
 }
+
+#container{
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  width: 1210px;
+  height: 700px;
+  border: 1px solid blue;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#game {
+  position: relative;
+  display: inline-block;
+  width: 1000px;
+  height: 700px;
+  overflow: hidden;
+}
+
+#gamenav{
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 700px;
+}
+
+h1{
+  font-size: 30px;
+  margin-left: 5px;
+  width:160px;
+  margin: auto;
+}
+
+h2{
+  font-size: 15px;
+  margin-left: 5px;
+  font-weight: 300;
+
+}
+
+#keys{
+  position: absolute;
+  left: 175px;
+  top: 158px;
+  width: 25px;
+}
+
 
 #sky{
 position: absolute;
@@ -21,43 +70,43 @@ width: 100%;
 
 #Boat{
   position: absolute;
-  left: 100px;
-  top: 0px;
-  width: 600px;
+  left: 90px;
+  top: 10px;
+  width: 500px;
 }
 
 #diver{
   position: absolute;
   left: 100px;
-  top:600px;
-  width: 250px;
+  top:550px;
+  width: 200px;
 }
 
 #gun{
   position: absolute;
-  left: 315px;
-  top:600px;
+  left: 250px;
+  top:522px;
   width: 200px;
 }
 
 
 .fish{
-  width: 95px;
+  width: 8%;
   position: absolute;
 }
 
 #fish1 {
-left: 500px;
-top: 400px;
+left: 600%;
+top: 400%;
 }
 
 #fish2{
-  left: 800px;
+  left: 500px;
   top: 500px;
 }
 
 #fish3{
-  left: 500px;
+  left: 300px;
   top: 300px;
 }
 
@@ -67,38 +116,41 @@ top: 400px;
 }
 
 #fish5{
-  left: 1050px;
-  top: 655px;
+  left: 200px;
+  top: 370px;
 }
 
 #fish6{
-  left: 200px;
-  top: 800px;
+  left: 500px;
+  top: 500px;
 }
 
 #fish7{
-  left: 200px;
-  top: 400px;
+  left: 600px;
+  top: 290px;
 }
 
 #fish8{
-  left: 1050px;
-  top: 300px;
+  left: 400px;
+  top: 340px;
+  width: 6%;
 }
 
 #fish9{
-  left: 1090px;
-  top: 800px;
+  left: 550px;
+  top: 530px;
+  width: 6%;
 }
 
 .blackfish{
-  width: 90px;
+  width: 80px;
   position: absolute;
 }
 
 #blackfish1{
-  left: 1090px;
-  top: 800px;
+  left: 150px;
+  top: 400px;
+  width: 70px;
 }
 
 #blackfish2{
@@ -107,18 +159,16 @@ top: 400px;
 }
 
 .bluefish{
-  width: 120px;
+  width: 100px;
   position: absolute;
 }
 
 #bluefish1{
   left: 800px;
-  top: 700px;
+  top: 400px;
 }
 
 #bluefish2{
   left: 750px;
-  top: 760px;
+  top: 300px;
 }
-
-
