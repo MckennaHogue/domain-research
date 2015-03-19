@@ -20,6 +20,7 @@ body {
   width: 1000px;
   height: 700px;
   overflow: hidden;
+  cursor: crosshair;
 }
 
 #gamenav{
@@ -77,8 +78,8 @@ width: 100%;
 
 #diver{
   position: absolute;
-  left: 100px;
-  top:550px;
+  left: 200px;
+  top:400px;
   width: 200px;
 }
 
@@ -95,80 +96,3 @@ width: 100%;
   position: absolute;
 }
 
-#fish1 {
-left: 600%;
-top: 400%;
-}
-
-#fish2{
-  left: 500px;
-  top: 500px;
-}
-
-#fish3{
-  left: 300px;
-  top: 300px;
-}
-
-#fish4{
-  left: 550px;
-  top: 600px;
-}
-
-#fish5{
-  left: 200px;
-  top: 370px;
-}
-
-#fish6{
-  left: 500px;
-  top: 500px;
-}
-
-#fish7{
-  left: 600px;
-  top: 290px;
-}
-
-#fish8{
-  left: 400px;
-  top: 340px;
-  width: 6%;
-}
-
-#fish9{
-  left: 550px;
-  top: 530px;
-  width: 6%;
-}
-
-.blackfish{
-  width: 80px;
-  position: absolute;
-}
-
-#blackfish1{
-  left: 150px;
-  top: 400px;
-  width: 70px;
-}
-
-#blackfish2{
-  left: 500px;
-  top: 400px;
-}
-
-.bluefish{
-  width: 100px;
-  position: absolute;
-}
-
-#bluefish1{
-  left: 800px;
-  top: 400px;
-}
-
-#bluefish2{
-  left: 750px;
-  top: 300px;
-}
