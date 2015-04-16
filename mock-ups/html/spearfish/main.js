@@ -103,6 +103,7 @@
 /* Global Variables */
 
 var $game = $('#game')
+var diver = $("#diver");
 var waterSurface = 210;
 var waterFloor = 600;
 
@@ -115,6 +116,49 @@ var makeFish = function(startingX, startingY, startingSpeed){
     speed: startingSpeed
    };
 };
+
+var vars = [], hash;
+//get url: "file:///Users/roxysurfgirl/Desktop/java/domain-research/mock-ups/html/spearfish/index.html?spear=gun1&suit=red"
+//spilts url into two pieces, after the "?"
+//[1] means the second element in the array: q = "spear=gun1&suit=red"
+var q = document.URL.split('?')[1];
+if(q != undefined){
+    //split q into pieces, based on "&"
+    q = q.split('&');
+    //for each piece,
+    for(var i = 0; i < q.length; i++){
+        //split again at "="
+        hash = q[i].split('=');
+        vars.push(hash[1]);
+        vars[hash[0]] = hash[1];
+    }
+}
+
+
+//find value of "spear" from above array, and save to variable
+var spear = vars["spear"];
+// console.log("spear type = " + spear);
+var suit = vars["suit"];
+// console.log("suit color = " + suit);
+
+if(spear =="gun1"){
+  //change the css for the gun to whichever image you want
+  $("#gun").attr("src", "assets/keys.png");
+}else if(spear =="gun2"){
+  //change the css for the gun to whichever image you want
+  // $("#gun").attr("src", "assets/spear1.jpg");
+}else if(spear =="gun3"){
+  //change the css for the gun to whichever image you want
+  // $("#gun").attr("src", "assets/spear2.jpg");
+}
+
+// same as above for diver images
+
+
+//IN HTML
+//put diver and spear in same div
+//instead of moving diver (below) move that div
+
 
 var schoolOfFish = [];
 
@@ -208,7 +252,9 @@ setInterval(function(){
 
   /* Update Diver */
   // TODO
-  var diver=$("#diver");
+
+  //var diverDiv = $("#diverDiv");
+  //diverDiv.css
   diver.css({  "top":diverobject.y+"px", "left": diverobject.x+ "px"});
 
 

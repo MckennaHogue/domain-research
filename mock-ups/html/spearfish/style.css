@@ -14,6 +14,29 @@ body {
   cursor: crosshair;
 }
 
+#guns{
+  position: relative;
+}
+
+div#suits div{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+#bluesuit{
+  width: 50px;
+  height: 50px;
+}
+
+#greensuit{
+  background: red;
+}
+
+#brownsuit{
+  background: black;
+}
+
 /*#container{
   font-family: 'Oswald', sans-serif;
   position: relative;
@@ -55,7 +78,7 @@ h2{
 
 
 #sky{
-position: absolute;
+/*position: absolute;*/
 background-image: url("assets/underwater.jpg");
 top: 0%;
 height: 100%;
