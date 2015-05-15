@@ -226,6 +226,7 @@ setInterval(function(){
     var fishId = "fish"+i;
     var fishElement = $("#"+fishId);
 
+
     if(fishElement.length == 0){ // Add html elements for fish if they don't exist.
        $game.append ('<img src="assets/fish1.gif" alt="fish" id="'+fishId+'" class="fish">');
        fishElement = $("#"+fishId); // Updates fishElement in case the fish didn't exist.
@@ -240,6 +241,8 @@ setInterval(function(){
       fishsound.play();
       currentFish.x =0;
     }
+
+
 
     // Updates the fish's css properties.
     fishElement.css({  "top":currentFish.y+"px", "left": currentFish.x+ "px"});
